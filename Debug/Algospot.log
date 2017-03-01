@@ -1,0 +1,4 @@
+﻿  Mispell.cpp
+c:\users\jaeshim\documents\visual studio 2015\projects\algospot\mispell.cpp(32): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\jaeshim\documents\visual studio 2015\projects\algospot\mispell.cpp(17): warning C4101: 'index' :참조되지 않은 지역 변수입니다.
+  Algospot.vcxproj -> C:\Users\jaeshim\Documents\Visual Studio 2015\Projects\Algospot\Debug\Algospot.exe
