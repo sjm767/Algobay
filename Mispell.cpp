@@ -19,19 +19,19 @@ int main(string args[]) {
 
 	map<int, string> texts;
 
-	cin >> n;
-	cin.clear();
-	cin.ignore(256, '\n');
+	//cin >> n;
+	//cin.clear();
+	//cin.ignore(256, '\n');
 
-	for (int i = 0; i < n; i++) {		
-		getline(cin, text);
+	//for (int i = 0; i < n; i++) {		
+	//	getline(cin, text);
 
-		texts.insert(pair<int, string>(text[0], text.substr(2)));		
-	}
+	//	texts.insert(pair<int, string>(text[0], text.substr(2)));		
+	//}
 
-	for (int i = 0; i < texts.size(); i++) {
-		cout << texts[i] << endl;
-	}
-	
+	//for (int i = 0; i < texts.size(); i++) {
+	//	cout << texts[i] << endl;
+	//}
+	//
 	//vector<string> texts;
 }
