@@ -142,9 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Algospot.cpp" />
     <ClCompile Include="DrawRect.cpp" />
+    <ClCompile Include="Lecture.cpp" />
     <ClCompile Include="Mispell.cpp" />
     <ClCompile Include="Mordor.cpp" />
+    <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="XHAENEUNG.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
