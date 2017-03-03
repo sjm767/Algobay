@@ -13,31 +13,37 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Tutorial">
+      <UniqueIdentifier>{7ce034aa-672d-412b-adcd-32f4856b7f02}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Mordor.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Mispell.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Rect.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Lecture.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="XHAENEUNG.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Algospot.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Convert.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
     </ClCompile>
     <ClCompile Include="DrawRect.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Tutorial</Filter>
     </ClCompile>
     <ClCompile Include="Encrypt.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Lecture.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Mispell.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Mordor.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="XHAENEUNG.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

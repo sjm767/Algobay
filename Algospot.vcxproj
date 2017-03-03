@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algospot.cpp" />
+    <ClCompile Include="Convert.cpp" />
     <ClCompile Include="DrawRect.cpp" />
     <ClCompile Include="Encrypt.cpp" />
     <ClCompile Include="Lecture.cpp" />
