@@ -14,33 +14,33 @@ vector<string> converted;
 string GetLower(string str);
 double Solve(double data, string convert);
 string DoubleToString(double value);
-int main() {
-	int n;
-
-	double data;
-	string convert;
-	
-	vector<double> result;
-
-	
-	cout << fixed;
-	cout.precision(4);
-
-
-	cin >> n;
-	for (int i = 0; i < n; i++) {
-		cin >> data;
-		cin >> convert;
-		
-		result.push_back(Solve(data, convert));
-
-	}
-
-	for (int i = 0; i < n; i++) {
-		cout << (i + 1) << " " << result[i] << " " << converted[i] << endl;
-	}
-	return 0;
-}
+//int main() {
+//	int n;
+//
+//	double data;
+//	string convert;
+//	
+//	vector<double> result;
+//
+//	
+//	cout << fixed;
+//	cout.precision(4);
+//
+//
+//	cin >> n;
+//	for (int i = 0; i < n; i++) {
+//		cin >> data;
+//		cin >> convert;
+//		
+//		result.push_back(Solve(data, convert));
+//
+//	}
+//
+//	for (int i = 0; i < n; i++) {
+//		cout << (i + 1) << " " << result[i] << " " << converted[i] << endl;
+//	}
+//	return 0;
+//}
 string DoubleToString(double value)
 {
 	ostringstream ostr;
