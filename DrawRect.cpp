@@ -1,111 +1,49 @@
 #include<iostream>
 #include<vector>
-#include<map>
 using namespace std;
 
-class Rect;
-class RectPoint;
+int main() {
+	int t;
+	int x, y;
 
-class RectPoint {	
-public:
-	int x;
-	int y;
-	RectPoint() {
+	vector<int> resultX, resultY;
 
-	}
-	RectPoint(int _x, int _y);
+	vector<int> xPoints;
+	vector<int> yPoints;
 
-};
+	cin >> t;
+	for (int i = 0; i < t; i++) {
 
-RectPoint::RectPoint(int _x, int _y) {
-	x = _x;
-	y = _y;
-}
+		for (int j = 0; j < 3; j++) {
+			cin >> x >> y;
 
-class Rect {
-private:
-	vector<RectPoint> points;
-
-public:
-	Rect();
-	void Add(RectPoint point);	
-	RectPoint GetPoint();
-};
+			xPoints.push_back(x);
+			yPoints.push_back(y);
+		}
 
 
-Rect::Rect() {
-	
-}
-
-void Rect::Add(RectPoint point) {
-	points.push_back(point);
-}
-
-
-RectPoint Rect::GetPoint() {
-	int sum = 0;
-	
-	map<int, int> pointX;
-	map<int, int> pointY;
-	RectPoint result;	
-
-	for (int i = 0; i < points.size(); i++) {
-		if ((pointX.find(points[i].x) == pointX.end())) {
-			pointX.insert(pair<int, int>(points[i].x, 1));
+		if (xPoints[0] == xPoints[1]) {
+			resultX.push_back(xPoints[2]);
 		}
 		else {
-			pointX[points[i].x]++;
+			resultX.push_back((xPoints[0] == xPoints[2] ? xPoints[1] : xPoints[0]));
 		}
 
-		if ((pointY.find(points[i].y) == pointY.end())) {
-			pointY.insert(pair<int, int>(points[i].y, 1));
+		if (yPoints[0] == yPoints[1]) {
+			resultY.push_back(yPoints[2]);
 		}
 		else {
-			pointY[points[i].y]++;
+			resultY.push_back((yPoints[0] == yPoints[2] ? yPoints[1] : yPoints[0]));
 		}
-	}
-	
-	map<int, int>::iterator it;
 
-	for (it = pointX.begin(); it != pointX.end(); it++) {
-		if (it->second == 1) {
-			result.x = it->first;
-			break;
-		}
-	}
-	for (it = pointY.begin(); it != pointY.end(); it++) {
-		if (it->second == 1) {
-			result.y = it->first;
-			break;
-		}
-	}	
+		xPoints.clear();
+		yPoints.clear();
 
-	return result;
+	}
+
+	for (int i = 0; i < t; i++) {
+		cout << resultX[i] << " " << resultY[i] << endl;
+	}
+
+	return 0;
 }
-
-//
-//int main(int argc,char *argv[]) {
-//	int n;
-//	int x, y;
-//
-//	cin >> n;
-//
-//	vector<Rect> rect;
-//	rect.resize(n);
-//
-//	for (int i = 0; i < n; i++) {
-//		for (int j = 0; j < 3; j++) {
-//			cin >> x >> y;
-//			RectPoint point(x, y);
-//			rect[i].Add(point);
-//		}
-//	}
-//
-//	for (int i = 0; i < n; i++) {
-//		RectPoint result = rect[i].GetPoint();
-//
-//		cout << result.x << " " << result.y << endl;
-//	}
-//
-//	return 0;
-//}
