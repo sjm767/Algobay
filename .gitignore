@@ -52,9 +52,11 @@ ipch/
 *.psess
 *.vsp
 *.vspx
+*.sdf
 
 # Guidance Automation Toolkit
 *.gpState
+*.sdf
 
 # ReSharper is a .NET coding add-in
 _ReSharper*

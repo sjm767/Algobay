@@ -45,5 +45,11 @@
     <ClCompile Include="XHAENEUNG.cpp">
       <Filter>소스 파일\Tutorial</Filter>
     </ClCompile>
+    <ClCompile Include="HotSummer.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="URI.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

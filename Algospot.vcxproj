@@ -146,10 +146,12 @@
     <ClCompile Include="Convert.cpp" />
     <ClCompile Include="DrawRect.cpp" />
     <ClCompile Include="Encrypt.cpp" />
+    <ClCompile Include="HotSummer.cpp" />
     <ClCompile Include="Lecture.cpp" />
     <ClCompile Include="Mispell.cpp" />
     <ClCompile Include="Mordor.cpp" />
     <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="URI.cpp" />
     <ClCompile Include="XHAENEUNG.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
