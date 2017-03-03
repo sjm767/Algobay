@@ -2,47 +2,60 @@
 #include<string>
 #include<vector>
 #include<algorithm>
-#include<map>
 using namespace std;
 //
 //int main() {
+//	int n;
+//	vector<string> text;
+//	vector<string> result;
+//	string str;
+//	string strResult;
+//	cin >> n;		
 //	
-//	string str = "Happy %20Joy %20Joy %21";
-//	string text;
-//
-//	for (int i = 0; i < str.length()-1; i++) {
-//
-//		if (str[i] == '%') {
-//			text = str.substr(i+1, 2);
-//
-//			
+//	for (int i = 0; i < n; i++) {
+//		cin >> str;
+//		for (int j = 0; j < str.length(); j += 2) {
+//			text.push_back(str.substr(j, 2));
 //		}
-//	}
+//		std::sort(text.begin(), text.end());
+//
+//		for (int j = 0; j < text.size(); j++) {			
+//			strResult.append(text[j]);						
+//		}
+//
+//		result.push_back(strResult);
+//		text.clear();
+//		str.clear();
+//		strResult.clear();
+//	}	
+//
+//	for (int i = 0; i < n; i++) {
+//		cout << result[i] << endl;
+//	}	
 //	
 //	return 0;
 //}
+
+//bool isBiggerA(string a, string b) {
+//	int j = 0;
+//	int k = 0;
 //
-//string getString(string text) {
-//	string result;
-//	switch (stoi(text))
-//	{
-//	case 20:
-//		result = " ";
-//		break;
-//	case 24:
-//		result = "$";
-//		break;
-//	case 25:
-//		result = "%";
-//		break;
-//	case 28:
-//		result = "(";
-//		break;
-//	case 29:
-//		result = ")";
-//		break;
-//	case 30:
-//	default:
-//		break;
+//	while (true) {
+//
+//		if (a[j] == b[k]) {
+//			j++;
+//			k++;
+//		}
+//		else if (a[j] < b[k]) {
+//			return false;
+//		}
+//		else {
+//			return true;
+//		}
+//
+//		if (j == a.length() || k == b.length()) {
+//			return true;
+//		}
 //	}
 //}
+

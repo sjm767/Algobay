@@ -18,9 +18,6 @@
     <ClCompile Include="Mordor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="DrawRect.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Mispell.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -34,6 +31,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Algospot.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawRect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Encrypt.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

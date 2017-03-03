@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClCompile Include="Algospot.cpp" />
     <ClCompile Include="DrawRect.cpp" />
+    <ClCompile Include="Encrypt.cpp" />
     <ClCompile Include="Lecture.cpp" />
     <ClCompile Include="Mispell.cpp" />
     <ClCompile Include="Mordor.cpp" />

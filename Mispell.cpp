@@ -1,35 +1,28 @@
 #include<iostream>
 #include<string>
 #include<vector>
-#include<map>
 using namespace std;
 
-class Texts {
-public:
+
+int main() {
+	int n;
+	
 	int index;
-	string text;
-};
-//
-//int main(string args[]) {
-//	int n;
-//	int index;
-//	string text;
-//
-//	map<int, string> texts;
-//
-//	//cin >> n;
-//	//cin.clear();
-//	//cin.ignore(256, '\n');
-//
-//	//for (int i = 0; i < n; i++) {		
-//	//	getline(cin, text);
-//
-//	//	texts.insert(pair<int, string>(text[0], text.substr(2)));		
-//	//}
-//
-//	//for (int i = 0; i < texts.size(); i++) {
-//	//	cout << texts[i] << endl;
-//	//}
-//	//
-//	//vector<string> texts;
-//}
+	string str;
+
+	vector<string> resultList;	
+		
+	cin >> n;
+	for (int i = 0; i < n; i++) {
+		cin >> index;
+		cin >> str;
+
+		resultList.push_back(to_string(i+1).append(" ").append(str.erase(index-1, 1)));
+	}
+
+	for (int i = 0; i < n; i++) {
+		cout << resultList[i] << endl;
+	}	
+
+	return 0;
+}
