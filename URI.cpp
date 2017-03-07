@@ -6,21 +6,21 @@ using namespace std;
 
 string Solve(string str);
 string getReplaced(string a);
-int main() {
-	int n;
-	string str;
-	vector<string> resultText;
-	cin >> n;
-	for (int i = 0; i < n; i++) {
-		cin >> str;
-		resultText.push_back(Solve(str));
-	}
-
-	for (int i = 0; i < n; i++) {
-		cout << resultText[i] << endl;
-	}
-	return 0;
-}
+//int main() {
+//	int n;
+//	string str;
+//	vector<string> resultText;
+//	cin >> n;
+//	for (int i = 0; i < n; i++) {
+//		cin >> str;
+//		resultText.push_back(Solve(str));
+//	}
+//
+//	for (int i = 0; i < n; i++) {
+//		cout << resultText[i] << endl;
+//	}
+//	return 0;
+//}
 
 string Solve(string str) {
 	string result;

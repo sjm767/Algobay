@@ -51,5 +51,8 @@
     <ClCompile Include="URI.cpp">
       <Filter>소스 파일\Tutorial</Filter>
     </ClCompile>
+    <ClCompile Include="Weird.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
