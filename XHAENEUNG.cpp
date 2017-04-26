@@ -2,96 +2,110 @@
 #include<map>
 #include<string>
 #include<algorithm>
-
+#include<vector>
 using namespace std;
 
-map<string, int> matching;
-map<int,string> matchingResult;
-//
-//int getResult(int a, char op, int b);
-//int main() {
-//
-//	matching.insert(std::pair<string, int>("zero", 0));
-//	matching.insert(std::pair<string, int>("one", 1));
-//	matching.insert(std::pair<string, int>("two", 2));
-//	matching.insert(std::pair<string, int>("three", 3));
-//	matching.insert(std::pair<string, int>("four", 4));
-//	matching.insert(std::pair<string, int>("five", 5));
-//	matching.insert(std::pair<string, int>("six", 6));
-//	matching.insert(std::pair<string, int>("seven", 7));
-//	matching.insert(std::pair<string, int>("eight", 8));
-//	matching.insert(std::pair<string, int>("nine", 9));
-//	matching.insert(std::pair<string, int>("ten", 10));
-//
-//	matchingResult.insert(std::pair<int, string>(0,"zero"));
-//	matchingResult.insert(std::pair<int, string>(1,"one"));
-//	matchingResult.insert(std::pair<int, string>(2,"two"));
-//	matchingResult.insert(std::pair<int, string>( 3,"three"));
-//	matchingResult.insert(std::pair<int, string>( 4,"four"));
-//	matchingResult.insert(std::pair<int, string>(5,"five"));
-//	matchingResult.insert(std::pair<int, string>(6,"six"));
-//	matchingResult.insert(std::pair<int, string>( 7, "seven"));
-//	matchingResult.insert(std::pair<int, string>( 8, "eight"));
-//	matchingResult.insert(std::pair<int, string>( 9,"nine"));
-//	matchingResult.insert(std::pair<int, string>( 10,"ten"));
-//
-//	int n;
-//	string a, b,result;
-//	char oper,equal;
-//
-//	cin >> n;	
-//
-//	for (int i = 0; i < n; i++) {
-//		cin >> a >> oper >> b >> equal >> result;
-//
-//		int resultInt = getResult(matching[a], oper, matching[b]);	
-//
-//		string target = matchingResult[resultInt];
-//		
-//		int ct = 0;
-//		int targetCt = result.length();
-//		int k = 0;
-//		
-//		for (int j = 0; j < result.length(); j++) {
-//			while (k < target.length()) {
-//				bool isEqu;			
-//				isEqu = result[j] == target[k];
-//
-//				if (isEqu == 1) {
-//					ct++;
-//					break;
-//				}
-//				k++;
-//			}
-//
-//			k = 0;
-//		}
-//		
-//		if (targetCt == ct) {
-//			cout << "Yes" << endl;
-//		}
-//		else {
-//			cout << "No" << endl;
-//		}		
-//	}
-//
-//
-//	return 0;
-//}
-//int getResult(int a, char op, int b) {
-//	
-//	switch (op) {
-//	case '+':
-//		return a + b;
-//		break;
-//	case '-':
-//		return a - b;
-//		break;
-//	case '*':
-//		return a * b;
-//		break;
-//	case '/':
-//		return a / b;
-//		break;
-//	}
-//}
+int calc(int a, int b, char oper);
+bool isEqual(string resultValue, string result);
+
+map<string, int> stringToNumMap;
+map<int, string> intToStringMap;
+
+void init()
+{	
+	stringToNumMap.insert(pair<string, int>("zero", 0));
+	stringToNumMap.insert(pair<string, int>("one", 1));
+	stringToNumMap.insert(pair<string, int>("two", 2));
+	stringToNumMap.insert(pair<string, int>("three", 3));
+	stringToNumMap.insert(pair<string, int>("four", 4));
+	stringToNumMap.insert(pair<string, int>("five", 5));
+	stringToNumMap.insert(pair<string, int>("six", 6));
+	stringToNumMap.insert(pair<string, int>("seven", 7));
+	stringToNumMap.insert(pair<string, int>("eight", 8));
+	stringToNumMap.insert(pair<string, int>("nine", 9));
+	stringToNumMap.insert(pair<string, int>("ten", 10));
+
+	intToStringMap.insert(pair<int, string>(0, "zero"));
+	intToStringMap.insert(pair<int, string>(1,"one"));
+	intToStringMap.insert(pair<int, string>(2,"two"));
+	intToStringMap.insert(pair<int, string>(3,"three"));
+	intToStringMap.insert(pair<int, string>(4,"four"));
+	intToStringMap.insert(pair<int, string>(5,"five"));
+	intToStringMap.insert(pair<int, string>(6,"six"));
+	intToStringMap.insert(pair<int, string>(7,"seven"));
+	intToStringMap.insert(pair<int, string>(8,"eight"));
+	intToStringMap.insert(pair<int, string>(9,"nine"));
+	intToStringMap.insert(pair<int, string>(10,"ten"));	
+}
+bool solve(string first,string second,char oper,string result)
+{
+	int firstInt, secondInt;
+	string resultValue;
+	firstInt = stringToNumMap[first];
+	secondInt = stringToNumMap[second];
+	resultValue = intToStringMap[(calc(firstInt, secondInt, oper))];
+
+	return isEqual(resultValue, result);	
+}
+
+int calc(int a, int b,char oper)
+{
+	int result;
+	switch (oper)
+	{
+	case '+':
+		result = a + b;
+		break;
+	case '-':
+		result = a - b;
+		break;
+	case '*':
+		result = a * b;
+		break;
+	case '/':
+		result = a / b;
+		break;
+	}
+
+	return result;
+}
+bool isEqual(string resultValue, string result)
+{
+	sort(resultValue.begin(), resultValue.end());
+	sort(result.begin(), result.end());
+
+	if (resultValue == result)
+	{
+		return true;
+	}
+
+	return false;
+}
+int main() {
+	int n=1;	
+	string first, second,result;	
+	char oper,equal;	
+	cin >> n;	
+	vector<string> resultText;
+	int index = 0;
+	init();
+
+	for (int i = 0; i < n; i++) {
+		cin >> first >> oper >> second >> equal >> result;
+		if (solve(first, second, oper, result))
+		{
+			resultText.push_back("Yes");
+		}
+		else
+		{
+			resultText.push_back("No");
+		}
+	}
+
+	for (int i = 0; i<resultText.size(); i++)
+	{ 
+		cout << resultText[i] << endl;
+	}	
+
+	return 0;
+}
