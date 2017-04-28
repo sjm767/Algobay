@@ -74,7 +74,8 @@ struct RMQ {
 		return queryMax(left, right, 1, 0, n - 1);
 	}
 };
-//
+
+int GetLevel(int start, int end, RMQ rmq);
 //int main(string args[]) {
 //	int n = 6;
 //	vector<int> array;
@@ -90,13 +91,16 @@ struct RMQ {
 //	array.push_back(4);
 //
 //	RMQ rmq = RMQ(array);	
-//
-//
+//	
 //	//ÁúÀÇ
-//	cout << rmq.queryMin(1,4) << endl;
-//	cout << (rmq.queryMax(1,4) * -1) << endl;
-//
+//	cout << GetLevel(0, 4, rmq)<<endl;
 //
 //
 //	return 0;
 //}
+
+int GetLevel(int start, int end,RMQ rmq) {
+
+	return (rmq.queryMax(start, end) * -1) - rmq.queryMin(start, end);
+}
+
