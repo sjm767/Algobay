@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Algospot.cpp" />
+    <ClCompile Include="BRACKETS2.cpp" />
     <ClCompile Include="Convert.cpp" />
     <ClCompile Include="DrawRect.cpp" />
     <ClCompile Include="Encrypt.cpp" />
@@ -155,6 +156,10 @@
     <ClCompile Include="WEEKLY_CALENDAR.cpp" />
     <ClCompile Include="Weird.cpp" />
     <ClCompile Include="XHAENEUNG.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="in.txt" />
+    <Text Include="out.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
