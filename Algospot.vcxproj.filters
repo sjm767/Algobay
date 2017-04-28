@@ -54,5 +54,8 @@
     <ClCompile Include="Weird.cpp">
       <Filter>소스 파일\Tutorial</Filter>
     </ClCompile>
+    <ClCompile Include="WEEKLY_CALENDAR.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
