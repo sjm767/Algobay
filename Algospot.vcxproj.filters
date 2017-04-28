@@ -57,5 +57,16 @@
     <ClCompile Include="WEEKLY_CALENDAR.cpp">
       <Filter>소스 파일\Tutorial</Filter>
     </ClCompile>
+    <ClCompile Include="BRACKETS2.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="in.txt">
+      <Filter>소스 파일\Tutorial</Filter>
+    </Text>
+    <Text Include="out.txt">
+      <Filter>소스 파일\Tutorial</Filter>
+    </Text>
   </ItemGroup>
 </Project>
