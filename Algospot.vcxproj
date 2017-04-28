@@ -152,6 +152,7 @@
     <ClCompile Include="Mordor.cpp" />
     <ClCompile Include="Rect.cpp" />
     <ClCompile Include="URI.cpp" />
+    <ClCompile Include="WEEKLY_CALENDAR.cpp" />
     <ClCompile Include="Weird.cpp" />
     <ClCompile Include="XHAENEUNG.cpp" />
   </ItemGroup>
