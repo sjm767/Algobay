@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\Tutorial">
       <UniqueIdentifier>{7ce034aa-672d-412b-adcd-32f4856b7f02}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Leetcode">
+      <UniqueIdentifier>{8c147957-9289-4bee-af14-90f8b3ad8e77}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algospot.cpp">
@@ -59,6 +62,15 @@
     </ClCompile>
     <ClCompile Include="BRACKETS2.cpp">
       <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoSum.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTwoNumbers.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
