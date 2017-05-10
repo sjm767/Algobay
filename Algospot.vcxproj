@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Algospot.cpp" />
     <ClCompile Include="BRACKETS2.cpp" />
     <ClCompile Include="Convert.cpp" />
@@ -149,9 +150,11 @@
     <ClCompile Include="Encrypt.cpp" />
     <ClCompile Include="HotSummer.cpp" />
     <ClCompile Include="Lecture.cpp" />
+    <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="Mispell.cpp" />
     <ClCompile Include="Mordor.cpp" />
     <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="TwoSum.cpp" />
     <ClCompile Include="URI.cpp" />
     <ClCompile Include="WEEKLY_CALENDAR.cpp" />
     <ClCompile Include="Weird.cpp" />
