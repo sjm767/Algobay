@@ -72,13 +72,8 @@
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp">
       <Filter>소스 파일\Leetcode</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="in.txt">
-      <Filter>소스 파일\Tutorial</Filter>
-    </Text>
-    <Text Include="out.txt">
-      <Filter>소스 파일\Tutorial</Filter>
-    </Text>
+    <ClCompile Include="HammingDistance.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -148,6 +148,7 @@
     <ClCompile Include="Convert.cpp" />
     <ClCompile Include="DrawRect.cpp" />
     <ClCompile Include="Encrypt.cpp" />
+    <ClCompile Include="HammingDistance.cpp" />
     <ClCompile Include="HotSummer.cpp" />
     <ClCompile Include="Lecture.cpp" />
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
@@ -159,10 +160,6 @@
     <ClCompile Include="WEEKLY_CALENDAR.cpp" />
     <ClCompile Include="Weird.cpp" />
     <ClCompile Include="XHAENEUNG.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="in.txt" />
-    <Text Include="out.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
