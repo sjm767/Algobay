@@ -149,8 +149,10 @@
     <ClCompile Include="DistributeCandies.cpp" />
     <ClCompile Include="DrawRect.cpp" />
     <ClCompile Include="Encrypt.cpp" />
+    <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="HammingDistance.cpp" />
     <ClCompile Include="HotSummer.cpp" />
+    <ClCompile Include="KeyboardRow.cpp" />
     <ClCompile Include="Lecture.cpp" />
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="Mispell.cpp" />

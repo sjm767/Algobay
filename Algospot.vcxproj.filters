@@ -81,5 +81,11 @@
     <ClCompile Include="ReverseWordsInAString.cpp">
       <Filter>소스 파일\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="KeyboardRow.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="FizzBuzz.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
