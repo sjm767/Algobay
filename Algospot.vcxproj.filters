@@ -105,5 +105,11 @@
     <ClCompile Include="SingleNumber.cpp">
       <Filter>소스 파일\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="DetectCapital.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="FindAllNumbersDisappearedInAnArray.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
