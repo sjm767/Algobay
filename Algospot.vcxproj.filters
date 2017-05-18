@@ -87,5 +87,23 @@
     <ClCompile Include="FizzBuzz.cpp">
       <Filter>소스 파일\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="ReverseString.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="NextGeneratorElement.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="IslandPerimeter.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="NimGame.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxConsecutiveOnes.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNumber.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
