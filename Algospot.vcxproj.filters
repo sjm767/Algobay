@@ -138,5 +138,11 @@
     <ClCompile Include="RelativeRanks.cpp">
       <Filter>소스 파일\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="TreeTraversal.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="IntersectionOfTwoArrays.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
