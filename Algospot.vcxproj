@@ -145,6 +145,7 @@
     <ClCompile Include="AddDigits.cpp" />
     <ClCompile Include="AddTwoNumbers.cpp" />
     <ClCompile Include="Algospot.cpp" />
+    <ClCompile Include="AssignCookies.cpp" />
     <ClCompile Include="BRACKETS2.cpp" />
     <ClCompile Include="ConstructTheRectangle.cpp" />
     <ClCompile Include="Convert.cpp" />
@@ -153,7 +154,6 @@
     <ClCompile Include="DrawRect.cpp" />
     <ClCompile Include="Encrypt.cpp" />
     <ClCompile Include="FindAllNumbersDisappearedInAnArray.cpp" />
-    <ClCompile Include="FindContentChildren.cpp" />
     <ClCompile Include="FindTheDifference.cpp" />
     <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="HammingDistance.cpp" />
@@ -164,12 +164,14 @@
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="MaxConsecutiveOnes.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
+    <ClCompile Include="MinimumMovesToEqualArrayElements.cpp" />
     <ClCompile Include="Mispell.cpp" />
     <ClCompile Include="Mordor.cpp" />
     <ClCompile Include="MoveZeros.cpp" />
     <ClCompile Include="NextGeneratorElement.cpp" />
     <ClCompile Include="NimGame.cpp" />
     <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="RelativeRanks.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseWordsInAString.cpp" />
     <ClCompile Include="SingleNumber.cpp" />

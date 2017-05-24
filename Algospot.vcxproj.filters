@@ -129,7 +129,13 @@
     <ClCompile Include="ConstructTheRectangle.cpp">
       <Filter>소스 파일\Leetcode</Filter>
     </ClCompile>
-    <ClCompile Include="FindContentChildren.cpp">
+    <ClCompile Include="AssignCookies.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumMovesToEqualArrayElements.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="RelativeRanks.cpp">
       <Filter>소스 파일\Leetcode</Filter>
     </ClCompile>
   </ItemGroup>
