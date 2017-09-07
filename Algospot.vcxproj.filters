@@ -174,5 +174,14 @@
     <ClCompile Include="ValidParentheses.cpp">
       <Filter>소스 파일\Leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="MergeTwoSortedLists.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveElement.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplementstrStr.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
