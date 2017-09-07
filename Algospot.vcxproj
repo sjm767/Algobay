@@ -160,6 +160,7 @@
     <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="HammingDistance.cpp" />
     <ClCompile Include="HotSummer.cpp" />
+    <ClCompile Include="ImplementstrStr.cpp" />
     <ClCompile Include="IntersectionOfTwoArrays.cpp" />
     <ClCompile Include="IslandPerimeter.cpp" />
     <ClCompile Include="KeyboardRow.cpp" />
@@ -168,6 +169,7 @@
     <ClCompile Include="LongestSubStringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="MaxConsecutiveOnes.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
+    <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MinimumMovesToEqualArrayElements.cpp" />
     <ClCompile Include="Mispell.cpp" />
     <ClCompile Include="Mordor.cpp" />
@@ -178,6 +180,7 @@
     <ClCompile Include="RansomNote.cpp" />
     <ClCompile Include="Rect.cpp" />
     <ClCompile Include="RelativeRanks.cpp" />
+    <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseStringByHand.cpp" />
