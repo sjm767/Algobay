@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\Leetcode">
       <UniqueIdentifier>{8c147957-9289-4bee-af14-90f8b3ad8e77}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\HackerRank">
+      <UniqueIdentifier>{ffa89be5-4214-499d-a8f7-6083307aadcd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Algospot.cpp">
@@ -182,6 +185,39 @@
     </ClCompile>
     <ClCompile Include="ImplementstrStr.cpp">
       <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="TwinStrings.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossingTheStreet.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="DeletingSubStrings.cpp">
+      <Filter>소스 파일\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="LonelyInteger.cpp">
+      <Filter>소스 파일\HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximizingXOR.cpp">
+      <Filter>소스 파일\HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumDifferenceInAnArray.cpp">
+      <Filter>소스 파일\HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="MinumumMoves.cpp">
+      <Filter>소스 파일\HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperStack.cpp">
+      <Filter>소스 파일\HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="RollingString.cpp">
+      <Filter>소스 파일\HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="KDifference.cpp">
+      <Filter>소스 파일\HackerRank</Filter>
+    </ClCompile>
+    <ClCompile Include="BeautifulSubarrays.cpp">
+      <Filter>소스 파일\HackerRank</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
