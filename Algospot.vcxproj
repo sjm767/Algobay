@@ -158,6 +158,7 @@
     <ClCompile Include="DrawRect.cpp" />
     <ClCompile Include="Encrypt.cpp" />
     <ClCompile Include="ExcelSheetColumnNumber.cpp" />
+    <ClCompile Include="FESTIVAL.cpp" />
     <ClCompile Include="FindAllNumbersDisappearedInAnArray.cpp" />
     <ClCompile Include="FindTheDifference.cpp" />
     <ClCompile Include="FizzBuzz.cpp" />
