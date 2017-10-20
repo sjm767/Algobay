@@ -225,5 +225,17 @@
     <ClCompile Include="FESTIVAL.cpp">
       <Filter>소스 파일\Algospot</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveDuplicatesWithSortedArray.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchInsertPosition.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="CountAndSay.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxSubArray.cpp">
+      <Filter>소스 파일\Leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

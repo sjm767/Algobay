@@ -151,6 +151,7 @@
     <ClCompile Include="ConstructTheRectangle.cpp" />
     <ClCompile Include="Convert.cpp" />
     <ClCompile Include="ConvertBinary.cpp" />
+    <ClCompile Include="CountAndSay.cpp" />
     <ClCompile Include="CrossingTheStreet.cpp" />
     <ClCompile Include="DeletingSubStrings.cpp" />
     <ClCompile Include="DetectCapital.cpp" />
@@ -177,6 +178,7 @@
     <ClCompile Include="MaximizingXOR.cpp" />
     <ClCompile Include="MaximumDepthofBinaryTree.cpp" />
     <ClCompile Include="MaximumDifferenceInAnArray.cpp" />
+    <ClCompile Include="MaxSubArray.cpp" />
     <ClCompile Include="MergeTwoSortedLists.cpp" />
     <ClCompile Include="MinimumMovesToEqualArrayElements.cpp" />
     <ClCompile Include="MinumumMoves.cpp" />
@@ -189,12 +191,14 @@
     <ClCompile Include="RansomNote.cpp" />
     <ClCompile Include="Rect.cpp" />
     <ClCompile Include="RelativeRanks.cpp" />
+    <ClCompile Include="RemoveDuplicatesWithSortedArray.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="ReverseInteger.cpp" />
     <ClCompile Include="ReverseString.cpp" />
     <ClCompile Include="ReverseStringByHand.cpp" />
     <ClCompile Include="ReverseWordsInAString.cpp" />
     <ClCompile Include="RollingString.cpp" />
+    <ClCompile Include="SearchInsertPosition.cpp" />
     <ClCompile Include="SingleNumber.cpp" />
     <ClCompile Include="SumofLeftLeaves.cpp" />
     <ClCompile Include="SumOfTwoIntegers.cpp" />
